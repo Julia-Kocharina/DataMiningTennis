@@ -1,6 +1,6 @@
 # 🧠 Predicting Match Outcomes in Professional Tennis
 
-> **Teamproject FSS 2026** · Data and Web Science Group · Universität Mannheim
+> **Team Project FSS 2026** · Data and Web Science Group · Universität Mannheim
 
 ## 👥 Team 10:
 ```
@@ -69,7 +69,7 @@ This project uses **[ATP Tennis 2000 - 2026]([(https://www.kaggle.com/datasets/d
 
 | Task | Type | Label |
 |---|---|---|
-| **Match outcome** | Binary classification: win/loose | 0, 1 |
+| **Match outcome** | Binary classification: win/lose | 0, 1 |
 
 
 ---
