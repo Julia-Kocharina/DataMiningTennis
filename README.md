@@ -3,18 +3,18 @@
 > **Teamproject FSS 2026** · Data and Web Science Group · Universität Mannheim
 
 ## 👥 Team 10:
-Gerrit Christopher Regelmann
-Eljes Basha
-Lucas Waage 
-Daniel Chernychenko
-Tim Stelzner
-Julia Kocharina
+| Gerrit Christopher Regelmann ||
+| Eljes Basha ||
+| Lucas Waage ||
+| Daniel Chernychenko ||
+| Tim Stelzner ||
+| Julia Kocharina ||
 
 ---
 
 ## 📌 Project Goal
 
-> The objective of this project is to develop a predictive model that estimates the outcome of professional men’s ATP tennis matches. Specifically, the task is to predict the winner of a given match based on historical and contextual data available prior to the match.
+> The objective of this project is to develop and compare predictive models that estimate the outcome of professional men’s ATP tennis matches. Specifically, the task is to predict the winner of a given match based on historical and contextual data available prior to the match.
 
 ---
 
@@ -73,7 +73,7 @@ This project uses **[ATP Tennis 2000 - 2026]([(https://www.kaggle.com/datasets/d
 ### 1️⃣ Clone the repository
 
 ```bash
-git clone [git@github.com:Mummbach/teamproject_heinzl_FSS26.git]
+git clone https://github.com/Julia-Kocharina/DataMiningTennis
 cd DataMiningTennis
 ```
 
