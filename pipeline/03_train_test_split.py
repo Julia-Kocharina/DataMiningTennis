@@ -116,3 +116,8 @@ print(f"\nFinal train shape: {train_df.shape}")
 print(f"Final test shape: {test_df.shape}")
 
 print("\nTrain/test split completed successfully.")
+
+# check class balance/imbalance
+
+print(train_df["target"].value_counts(normalize=True))
+print(test_df["target"].value_counts(normalize=True))

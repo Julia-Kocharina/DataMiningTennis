@@ -21,7 +21,7 @@ from sklearn.metrics import (
 ROOT_DIR = Path(__file__).resolve().parent.parent
 
 DATASET_DIR = ROOT_DIR / "data" 
-VISUALISATION_DIR = ROOT_DIR / "data" 
+VISUALISATION_DIR = ROOT_DIR / "data" / "visualisation"
 
 #VISUALISATION_DIR.mkdir(
 #    parents=True,
