@@ -3,13 +3,14 @@
 > **Teamproject FSS 2026** · Data and Web Science Group · Universität Mannheim
 
 ## 👥 Team 10:
+```
 | Gerrit Christopher Regelmann ||
 | Eljes Basha ||
 | Lucas Waage ||
 | Daniel Chernychenko ||
 | Tim Stelzner ||
 | Julia Kocharina ||
-
+```
 ---
 
 ## 📌 Project Goal
