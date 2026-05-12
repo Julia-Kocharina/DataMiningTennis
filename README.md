@@ -22,17 +22,7 @@
 
 ## Project Structure
 
-.
-├── ...
-├── docs                    # Documentation files (alternatively `doc`)
-│   ├── TOC.md              # Table of contents
-│   ├── faq.md              # Frequently asked questions
-│   ├── misc.md             # Miscellaneous information
-│   ├── usage.md            # Getting started guide
-│   └── ...                 # etc.
-└── ...
-
-
+```
 DataMiningTennis/
 │
 ├── data/
@@ -55,9 +45,10 @@ DataMiningTennis/
 ├── README.md                                      # Project overview and instructions                   
 └── requirements.txt                               # Required Python packages and dependencies               
 
-```
+
 TBA
 ```
+
 
 ---
 
