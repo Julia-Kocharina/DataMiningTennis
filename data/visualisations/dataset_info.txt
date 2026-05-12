@@ -1,0 +1,191 @@
+TENNIS DATASET INFORMATION
+============================================================
+
+Dataset Shape: (78778, 50)
+
+COLUMN TYPES
+----------------------------------------
+tourney_id                    object
+tourney_name                  object
+surface                       object
+draw_size                    float64
+tourney_level                 object
+indoor                        object
+tourney_date          datetime64[ns]
+match_num                    float64
+winner_id                     object
+winner_seed                   object
+winner_entry                  object
+winner_name                   object
+winner_hand                   object
+winner_ht                    float64
+winner_ioc                    object
+winner_age                   float64
+winner_rank                  float64
+winner_rank_points           float64
+loser_id                      object
+loser_seed                    object
+loser_entry                   object
+loser_name                    object
+loser_hand                    object
+loser_ht                     float64
+loser_ioc                     object
+loser_age                    float64
+loser_rank                   float64
+loser_rank_points            float64
+score                         object
+best_of                      float64
+round                         object
+minutes                      float64
+w_ace                        float64
+w_df                         float64
+w_svpt                       float64
+w_1stIn                       object
+w_1stWon                      object
+w_2ndWon                      object
+w_SvGms                       object
+w_bpSaved                     object
+w_bpFaced                     object
+l_ace                        float64
+l_df                         float64
+l_svpt                       float64
+l_1stIn                       object
+l_1stWon                      object
+l_2ndWon                      object
+l_SvGms                       object
+l_bpSaved                     object
+l_bpFaced                     object
+dtype: object
+
+DESCRIPTIVE STATISTICS
+----------------------------------------
+       tourney_id     tourney_name surface     draw_size tourney_level indoor  \
+count       78778            78778   78778  78735.000000         78778  72046   
+unique       3769             2074       4           NaN             8      2   
+top      2007-540  Australian Open    Hard           NaN           250      O   
+freq          127             3429   43478           NaN         31122  59530   
+mean          NaN              NaN     NaN     55.106319           NaN    NaN   
+min           NaN              NaN     NaN      2.000000           NaN    NaN   
+25%           NaN              NaN     NaN     32.000000           NaN    NaN   
+50%           NaN              NaN     NaN     32.000000           NaN    NaN   
+75%           NaN              NaN     NaN     64.000000           NaN    NaN   
+max           NaN              NaN     NaN    128.000000           NaN    NaN   
+std           NaN              NaN     NaN     40.238793           NaN    NaN   
+
+                         tourney_date     match_num winner_id winner_seed  \
+count                           78778  78289.000000     78778       32663   
+unique                            NaN           NaN      1831          64   
+top                               NaN           NaN      F324         1.0   
+freq                              NaN           NaN      1250        4187   
+mean    2012-08-02 12:33:44.605854464     26.916489       NaN         NaN   
+min               2000-01-03 00:00:00      1.000000       NaN         NaN   
+25%               2006-01-02 00:00:00      8.000000       NaN         NaN   
+50%               2012-04-06 00:00:00     19.000000       NaN         NaN   
+75%               2019-01-14 00:00:00     33.000000       NaN         NaN   
+max               2026-04-12 00:00:00    127.000000       NaN         NaN   
+std                               NaN     27.293072       NaN         NaN   
+
+       winner_entry    winner_name winner_hand     winner_ht winner_ioc  \
+count          9691          78778       78129  77271.000000      78776   
+unique            8           1831           3           NaN        109   
+top               Q  Roger Federer           R           NaN        ESP   
+freq           5489           1250       68522           NaN       9109   
+mean            NaN            NaN         NaN    186.333735        NaN   
+min             NaN            NaN         NaN    155.000000        NaN   
+25%             NaN            NaN         NaN    183.000000        NaN   
+50%             NaN            NaN         NaN    185.000000        NaN   
+75%             NaN            NaN         NaN    191.000000        NaN   
+max             NaN            NaN         NaN    211.000000        NaN   
+std             NaN            NaN         NaN      7.047607        NaN   
+
+          winner_age   winner_rank  winner_rank_points loser_id loser_seed  \
+count   78708.000000  78167.000000        78167.000000    78777      18114   
+unique           NaN           NaN                 NaN     2641         68   
+top              NaN           NaN                 NaN     L397        8.0   
+freq             NaN           NaN                 NaN      491       1601   
+mean       26.347908     79.048307         1627.147786      NaN        NaN   
+min        14.940000      1.000000            1.000000      NaN        NaN   
+25%        23.439000     18.000000          583.000000      NaN        NaN   
+50%        26.133000     45.000000          950.000000      NaN        NaN   
+75%        28.969000     85.000000         1755.000000      NaN        NaN   
+max        44.624000   2100.000000        16950.000000      NaN        NaN   
+std         3.984526    137.576906         2020.862568      NaN        NaN   
+
+       loser_entry       loser_name loser_hand      loser_ht loser_ioc  \
+count        15626            78778      77251  75795.000000     78767   
+unique           9             2648          3           NaN       117   
+top              Q  Feliciano Lopez          R           NaN       ESP   
+freq          8568              491      66977           NaN      7722   
+mean           NaN              NaN        NaN    185.713926       NaN   
+min            NaN              NaN        NaN    155.000000       NaN   
+25%            NaN              NaN        NaN    180.000000       NaN   
+50%            NaN              NaN        NaN    185.000000       NaN   
+75%            NaN              NaN        NaN    191.000000       NaN   
+max            NaN              NaN        NaN    211.000000       NaN   
+std            NaN              NaN        NaN      6.988033       NaN   
+
+           loser_age    loser_rank  loser_rank_points    score       best_of  \
+count   78549.000000  77234.000000        77234.00000    78776  78778.000000   
+unique           NaN           NaN                NaN    12756           NaN   
+top              NaN           NaN                NaN  6-3 6-4           NaN   
+freq             NaN           NaN                NaN     2618           NaN   
+mean       26.482364    116.945205          989.45256      NaN      3.446749   
+min        14.527000      1.000000            1.00000      NaN      3.000000   
+25%        23.521000     36.000000          437.00000      NaN      3.000000   
+50%        26.308000     68.000000          717.00000      NaN      3.000000   
+75%        29.218000    114.000000         1118.00000      NaN      3.000000   
+max        44.060000   2159.000000        16950.00000      NaN      5.000000   
+std         4.099751    185.447512         1132.15767      NaN      0.833020   
+
+        round       minutes         w_ace          w_df        w_svpt w_1stIn  \
+count   78777  71600.000000  72414.000000  72414.000000  72414.000000   72414   
+unique     10           NaN           NaN           NaN           NaN     256   
+top       R32           NaN           NaN           NaN           NaN    35.0   
+freq    24604           NaN           NaN           NaN           NaN    1858   
+mean      NaN    107.580978      6.950949      2.626840     77.970075     NaN   
+min       NaN      0.000000      0.000000      0.000000      0.000000     NaN   
+25%       NaN     78.000000      3.000000      1.000000     57.000000     NaN   
+50%       NaN    100.000000      6.000000      2.000000     73.000000     NaN   
+75%       NaN    130.000000      9.000000      4.000000     94.000000     NaN   
+max       NaN    665.000000    113.000000     26.000000    491.000000     NaN   
+std       NaN     40.921448      5.508661      2.280705     29.145571     NaN   
+
+       w_1stWon w_2ndWon w_SvGms w_bpSaved w_bpFaced         l_ace  \
+count     72414    72413   72402     72413     72413  72413.000000   
+unique      198      103      63        42        52           NaN   
+top        29.0     13.0    10.0       0.0       3.0           NaN   
+freq       2645     4810   10377     11822      8126           NaN   
+mean        NaN      NaN     NaN       NaN       NaN      5.159667   
+min         NaN      NaN     NaN       NaN       NaN      0.000000   
+25%         NaN      NaN     NaN       NaN       NaN      2.000000   
+50%         NaN      NaN     NaN       NaN       NaN      4.000000   
+75%         NaN      NaN     NaN       NaN       NaN      7.000000   
+max         NaN      NaN     NaN       NaN       NaN    103.000000   
+std         NaN      NaN     NaN       NaN       NaN      4.877115   
+
+                l_df        l_svpt l_1stIn l_1stWon l_2ndWon l_SvGms  \
+count   72413.000000  72413.000000   72413    72413    72413   72402   
+unique           NaN           NaN     270      208       98      66   
+top              NaN           NaN    36.0     25.0     12.0     9.0   
+freq             NaN           NaN    1863     2312     4508   10075   
+mean        3.340602     81.012001     NaN      NaN      NaN     NaN   
+min         0.000000      0.000000     NaN      NaN      NaN     NaN   
+25%         2.000000     60.000000     NaN      NaN      NaN     NaN   
+50%         3.000000     76.000000     NaN      NaN      NaN     NaN   
+75%         5.000000     97.000000     NaN      NaN      NaN     NaN   
+max       124.000000    489.000000     NaN      NaN      NaN     NaN   
+std         2.564468     29.094602     NaN      NaN      NaN     NaN   
+
+       l_bpSaved l_bpFaced  
+count      72412     72412  
+unique        45        61  
+top          3.0       7.0  
+freq        9803      7636  
+mean         NaN       NaN  
+min          NaN       NaN  
+25%          NaN       NaN  
+50%          NaN       NaN  
+75%          NaN       NaN  
+max          NaN       NaN  
+std          NaN       NaN  
+
