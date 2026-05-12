@@ -4,12 +4,12 @@
 
 ## 👥 Team 10:
 ```
-| Gerrit Christopher Regelmann ||
-| Eljes Basha ||
-| Lucas Waage ||
-| Daniel Chernychenko ||
-| Tim Stelzner ||
-| Julia Kocharina ||
+| Gerrit Christopher Regelmann 
+| Eljes Basha 
+| Lucas Waage 
+| Daniel Chernychenko 
+| Tim Stelzner 
+| Julia Kocharina 
 ```
 ---
 
